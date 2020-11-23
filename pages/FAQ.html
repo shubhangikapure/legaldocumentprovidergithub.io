@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+</head>
+
+<style>
+    .MyAccount{
+    background:#45b3e0;
+    padding:6px 8px;
+    border-radius: 25px;
+    color:white;
+    width:105px;
+}
+
+.MyAccount:hover{
+    color:#45b3e0;
+    background:#fff;
+
+}
+.p{
+    padding: 20px;
+    margin: 25px 50px 75px;
+    text-align: justify;
+ 
+}
+p.ex1 {
+ 
+  padding: 10px;
+  text-align: justify;
+  padding-top: 10px;
+ 
+
+   
+}
+
+ul.ex{
+    margin: 15px;
+    border-bottom: 1px solid;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+
+p.ex {
+ 
+ padding: 35px;
+ text-align: justify;
+ border-bottom: 1px solid;
+
+  
+}
+
+p.ex2 {
+ 
+ padding: 35px;
+ text-align: justify;
+}
+
+footer a{
+      text-decoration: none;
+      
+  }
+
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#45b3e0;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:rgb(10, 19, 19);
+   color: white;
+   text-align: center;
+}
+</style>
+
+<body>
+
+<!-- Got to top -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+ 
+   
+
+<!-- Header Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar navbar-inverse navbar-fixed-top">
+        <a class="navbar-brand" href="Home_page.html">Legal Documents Provider</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="Home_page.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Documents
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="../pages/business_documents.html">Business</a>
+                  <a class="dropdown-item" href="../pages/personal_documents.html">Personal</a>
+                  <a class="dropdown-item" href="../pages/all_documents.html">All documents</a>
+                </div>
+              </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="../pages/FAQ.html">FAQ </a>
+            </li>
+            
+
+            
+
+          </ul>
+          <a class="nav-link my-2  MyAccount" href="../pages/login.html" >My Account</a>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
+
+    <!-- Header Close -->
+
+    <div class="dashboard-wrapper">
+        <div class="dashboard-ecommerce">
+            <div class="container-fluid dashboard-content ">
+                <!-- ============================================================== -->
+                <!-- pageheader  -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="page-header">
+                            <h2 class="pageheader-title"></h2>
+                           
+                           
+                           
+                           
+                           
+                            <div class="page-breadcrumb">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">homepage</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-xl-2 col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="card">
+                            <div class="card-header p-4">
+                                 <center><h4>FAQ</h4></center>
+                               
+                               
+                            </div>
+                            
+                                   
+                                <div class="table-responsive-sm">
+                                  <center><h5>What service does Wonder.Legal offer?</h5></center>
+
+                                  <p class="ex1">The site allows you to create personalised legal documents:</p>
+
+                                  <ul class="ex">
+                                    <li>You choose a document</li>
+                                    <li>You create the document by completing a questionnaire.he document is created before your eyes as you respond to the questions.</li>
+                                    <li>You can buy the document for immediate download in Word and PDF formats. You can then modify it and reuse it however you wish, according to your needs.</li>
+                                   
+                                    <br>
+                                    <br>
+                                  </ul>
+                                
+
+                                              
+                                    </table>
+                                </div>
+
+                                <div class="table-responsive-sm">
+                                   
+                                    <center><h5>How much does a document cost?</h5></center>
+  
+                                    <p class="ex">A document costs between ₹ 199 and ₹ 2,999, with an average price of ₹ 931.
+
+                                        The price of each document depends on its length and popularity. The price is shown when you reach the end of the form.
+                                        
+                                        To see how much a document costs without filling out the form, simply open the form and click "next," without typing anything into the form, until the price is displayed. If the price is acceptable, you can then go back to the beginning and fill out the form.</p>
+  
+  
+                                 
+  
+                                                
+                                      </table>
+                                  </div>
+
+
+                                  <div class="table-responsive-sm">
+                                   
+                                    <center><h5>How do you complete and customise a document?</h5></center>
+  
+                                    <p class="ex">
+                                        First, choose the kind of document you want to create. Then you'll be taken to a page with a form to fill out on the left and a document on the right.
+
+                                        The document is generated one section at a time as you respond to the questionnaire. Clauses are added or removed, paragraphs are modified, words are changed, etc.
+                                        
+                                        At the end, you can download the document in Word and PDF formats. You can then modify the Word document and reuse it however you wish.
+                                 </p>
+  
+                                                
+                                      </table>
+                                  </div>
+
+
+                                  <div class="table-responsive-sm">
+                                   
+                                    <center><h5>I purchased a document, but didn't receive it by email. What should I do?</h5></center>
+  
+                                    <p class="ex">
+                                        It's very rare, but it can happen.
+
+                                        Don't worry, just follow the instructions for recovering a document.     </p>
+  
+                                                
+                                      </table>
+                                  </div>
+
+
+
+                                  <div class="table-responsive-sm">
+                                   
+                                    <center><h5>Who creates the templates?</h5></center>
+  
+                                    <p class="ex">
+                                        The templates are created by lawyers and legal experts.
+
+                                        Our team of writers is continually growing as the site becomes more and more successful.     </p>
+  
+                                                
+                                      </table>
+                                  </div>
+                          
+
+
+                                 <div class="table-responsive-sm">
+                                   
+                                    <center><h5>Who reviews my document?</h5></center>
+  
+                                    <p class="ex">
+                                        No one. Documents are not reviewed by a human.
+
+                                        Lawyers and legal experts are the ones who first create the templates. Then our computer program automatically builds your document based on the responses you provide in the form.
+                                        
+                                        Our templates cover most typical cases. Have your document reviewed by a lawyer if you think the template may not work for your specific case.     </p>
+  
+                                                
+                                      </table>
+                                  </div>
+                          
+
+                                  <div class="table-responsive-sm">
+                                   
+                                    <center><h5>Do I have to answer every question in the form?</h5></center>
+  
+                                    <p class="ex">
+                                        No, but we recommend that you do.
+
+                                        The document is created based on your responses. Some questions only fill in blanks in the template. Others add or remove entire paragraphs. That's why we recommend that you answer the questions carefully.
+                                        
+                                        If you don't know how to respond, you will find help text next to each item in the form to guide you.               
+                                      </table>
+                                  </div>
+
+
+
+
+                                  <div class="table-responsive-sm">
+                                   
+                                    <center><h5>Are you a law firm?</h5></center>
+  
+                                    <p class="ex">
+                                        No. The site is created by Miracle, an IT company.
+
+We are not a substitute for a lawyer; rather, we offer a technical solution for creating documents. We do not give legal advice and we do not tell you which document to choose or how to complete it.             
+                                      </table>
+                                  </div>
+                          
+
+                                  <div class="table-responsive-sm">
+                                   
+                                    <center><h5>Is the information I enter into my documents confidential?</h5></center>
+  
+                                    <p class="ex2">
+                                        Yes! The information you enter when you fill out a document is encrypted. Even we cannot read it, much less share it with others.                              </table>
+                                  </div>
+                          
+    <!-- Bottom Start -->
+    <footer class="sticky-footer">
+        <div class="container">
+          <div class="text-center">
+            <small>Copyright@legal Document Provider</small>
+          </div>
+        </div>
+      </footer>
+    <!-- Bottom Close -->
+
+</div>
+</body>
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="js/script1.js"></script>
+
+</html>
